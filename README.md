@@ -35,15 +35,17 @@ To run this project locally on your system:
    DB_PASSWORD=
 5. Generate Application Key:
    -php artisan key:generate
-6. Run Database Migration:
+6. Run Database Migration: (Create this database- "portfolio_crud" before running migrations)
    -php artisan migrate
 7. Create Storage Link for Image Uploads:
    -php artisan storage:link
 8. Start the Laravel Development Server:
    -php artisan serve
+Visit http://localhost:8000/projects in your browser.
 
+## 📌 Database Name Used
 
-
+portfolio_crud
 
 ## About Laravel
 
