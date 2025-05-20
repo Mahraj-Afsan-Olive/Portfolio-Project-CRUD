@@ -45,7 +45,18 @@ Visit http://localhost:8000/projects in your browser.
 
 ## 📌 Database Name Used
 
-portfolio_crud
+Database- portfolio_crud
+Create this database in phpMyAdmin before running migrations.
+
+## 📝 Features
+✅ Add New Project
+✅ Edit Existing Project
+✅ Delete a Project
+✅ View All Projects
+✅ View Project Details
+✅ Upload Project Image
+✅ Set Project Status (draft/published)
+✅ Clean UI with Bootstrap
 
 ## About Laravel
 
