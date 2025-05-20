@@ -40,22 +40,24 @@ To run this project locally on your system:
    Make sure to match this with your XAMPP MySQL settings:
 
    DB_DATABASE=portfolio_crud
+   
    DB_USERNAME=root
+   
    DB_PASSWORD=
 
-5. Generate Application Key:
+6. Generate Application Key:
 
    -php artisan key:generate
 
-6. Run Database Migration: (Create this database- "portfolio_crud" before running migrations)
+7. Run Database Migration: (Create this database- "portfolio_crud" before running migrations)
 
    -php artisan migrate
 
-7. Create Storage Link for Image Uploads:
+8. Create Storage Link for Image Uploads:
 
    -php artisan storage:link
 
-8. Start the Laravel Development Server:
+9. Start the Laravel Development Server:
 
     -php artisan serve
 
