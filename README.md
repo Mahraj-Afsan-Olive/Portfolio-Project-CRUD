@@ -12,6 +12,10 @@
 This is a simple Laravel CRUD application built for managing portfolio projects.  
 It includes basic features such as adding, editing, deleting, and viewing projects.
 
+## 🚀 Laravel Version Used
+
+- Laravel **12.0**
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
