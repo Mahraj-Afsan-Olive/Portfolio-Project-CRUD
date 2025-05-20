@@ -41,6 +41,7 @@ To run this project locally on your system:
    -php artisan storage:link
 8. Start the Laravel Development Server:
    -php artisan serve
+
 Visit http://localhost:8000/projects in your browser.
 
 ## 📌 Database Name Used
