@@ -21,32 +21,52 @@ It includes basic features such as adding, editing, deleting, and viewing projec
 To run this project locally on your system:
 
 1. Clone the Repository:
+   
   ``bash
+  
   -git clone https://github.com/Mahraj-Afsan-Olive/Portfolio-Project-CRUD.git
    cd Portfolio-Project-CRUD
-2. Install Dependencies:
+   
+3. Install Dependencies:
+   
   -composer install
-3. Copy the Environment File:
-  -cp .env.example .env
-4. Configure Database in .env:
+  
+5. Copy the Environment File:
+
+   -cp .env.example .env
+
+7. Configure Database in .env:
+
    Make sure to match this with your XAMPP MySQL settings:
+
    DB_DATABASE=portfolio_crud
+
    DB_USERNAME=root
+
    DB_PASSWORD=
-5. Generate Application Key:
+
+9. Generate Application Key:
+
    -php artisan key:generate
-6. Run Database Migration: (Create this database- "portfolio_crud" before running migrations)
+
+10. Run Database Migration: (Create this database- "portfolio_crud" before running migrations)
+
    -php artisan migrate
-7. Create Storage Link for Image Uploads:
+
+11. Create Storage Link for Image Uploads:
+
    -php artisan storage:link
-8. Start the Laravel Development Server:
-   -php artisan serve
+
+12. Start the Laravel Development Server:
+
+    -php artisan serve
 
 Visit http://localhost:8000/projects in your browser.
 
 ## 📌 Database Name Used
 
 Database- portfolio_crud
+
 Create this database in phpMyAdmin before running migrations.
 
 ## 📝 Features
