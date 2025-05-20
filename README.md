@@ -40,9 +40,7 @@ To run this project locally on your system:
    Make sure to match this with your XAMPP MySQL settings:
 
    DB_DATABASE=portfolio_crud
-
    DB_USERNAME=root
-
    DB_PASSWORD=
 
 5. Generate Application Key:
