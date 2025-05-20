@@ -22,20 +22,20 @@ To run this project locally on your system:
 
 1. Clone the Repository:
    
-  ``bash
+    ``bash
   
-  -git clone https://github.com/Mahraj-Afsan-Olive/Portfolio-Project-CRUD.git
-   cd Portfolio-Project-CRUD
+    -git clone https://github.com/Mahraj-Afsan-Olive/Portfolio-Project-CRUD.git
+     cd Portfolio-Project-CRUD
    
-3. Install Dependencies:
+2. Install Dependencies:
    
   -composer install
   
-5. Copy the Environment File:
+3. Copy the Environment File:
 
    -cp .env.example .env
 
-7. Configure Database in .env:
+4. Configure Database in .env:
 
    Make sure to match this with your XAMPP MySQL settings:
 
@@ -45,19 +45,19 @@ To run this project locally on your system:
 
    DB_PASSWORD=
 
-9. Generate Application Key:
+5. Generate Application Key:
 
    -php artisan key:generate
 
-10. Run Database Migration: (Create this database- "portfolio_crud" before running migrations)
+6. Run Database Migration: (Create this database- "portfolio_crud" before running migrations)
 
    -php artisan migrate
 
-11. Create Storage Link for Image Uploads:
+7. Create Storage Link for Image Uploads:
 
    -php artisan storage:link
 
-12. Start the Laravel Development Server:
+8. Start the Laravel Development Server:
 
     -php artisan serve
 
