@@ -16,6 +16,35 @@ It includes basic features such as adding, editing, deleting, and viewing projec
 
 - Laravel **12.0**
 
+## ⚙️ Setup Instructions
+
+To run this project locally on your system:
+
+1. Clone the Repository:
+  ``bash
+  -git clone https://github.com/Mahraj-Afsan-Olive/Portfolio-Project-CRUD.git
+   cd Portfolio-Project-CRUD
+2. Install Dependencies:
+  -composer install
+3. Copy the Environment File:
+  -cp .env.example .env
+4. Configure Database in .env:
+   Make sure to match this with your XAMPP MySQL settings:
+   DB_DATABASE=portfolio_crud
+   DB_USERNAME=root
+   DB_PASSWORD=
+5. Generate Application Key:
+   -php artisan key:generate
+6. Run Database Migration:
+   -php artisan migrate
+7. Create Storage Link for Image Uploads:
+   -php artisan storage:link
+8. Start the Laravel Development Server:
+   -php artisan serve
+
+
+
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
