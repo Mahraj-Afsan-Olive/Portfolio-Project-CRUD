@@ -12,7 +12,7 @@
 This is a simple Laravel CRUD application built for managing portfolio projects.  
 It includes basic features such as adding, editing, deleting, and viewing projects.
 
-## 🚀 Laravel Version Used
+## 📌 Laravel Version Used
 
 - Laravel **12.0**
 
