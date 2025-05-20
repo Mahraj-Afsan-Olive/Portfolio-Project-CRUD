@@ -22,14 +22,14 @@ To run this project locally on your system:
 
 1. Clone the Repository:
    
-    ``bash
+   ``bash
   
-    -git clone https://github.com/Mahraj-Afsan-Olive/Portfolio-Project-CRUD.git
-     cd Portfolio-Project-CRUD
+   -git clone https://github.com/Mahraj-Afsan-Olive/Portfolio-Project-CRUD.git
+    cd Portfolio-Project-CRUD
    
 2. Install Dependencies:
    
-  -composer install
+   -composer install
   
 3. Copy the Environment File:
 
